@@ -116,7 +116,7 @@ ggarrange(Ay_Ab_plot, Ay_Ai_plot, Ab_Ai_plot,
 
 
 
-#####---------- Violing plot comparing lineages of Agaricia -----------#########
+#####---------- Violin plot comparing lineages of Agaricia -----------#########
 
 Acomp<- Acomp %>% pivot_longer(cols=c('Ay_Ab', 'Ay_Ai', 'Ab_Ai'),
                                names_to='Comparisons',
@@ -135,7 +135,7 @@ a=ggplot(Acomp, aes(x = Comparisons, y = Offset)) +
 
 
 
-#####---------- Violing plot comparing lineages of Porites -----------#########
+#####---------- Violin plot comparing lineages of Porites -----------#########
 
 Pcomp<- Pcomp %>% pivot_longer(cols=c('Py_Pb', 'Py_Pi', 'Pb_Pi'),
                                names_to='Comparisons',
@@ -154,7 +154,7 @@ p=ggplot(Pcomp, aes(x = Comparisons, y = Offset)) +
 
 
 
-#####---------- Violing plot comparing lineages Agaricia with Porites -----------#########
+#####---------- Violin plot comparing lineages Agaricia with Porites -----------#########
 
 APcomp<- APcomp %>% pivot_longer(cols=c('Ay_Py', 'Ab_Pb', 'Ai_Pi'),
                                  names_to='Comparisons',
