@@ -1,9 +1,7 @@
 library(dplyr)
 library(vegan)
-library(lares)
 library(ggplot2)
-library(ggpubr)
-setwd("~/Documents/FLKeys/GitHub/Data") 
+setwd("~/Documents/Data") 
 # Note: relatedness files include all samples passing sequencing quality filtering, and include potential clone and sibling groups
 
 
