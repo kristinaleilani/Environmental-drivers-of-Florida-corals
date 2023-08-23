@@ -2,7 +2,7 @@
 Scripts, genotype, and environment data to accompany the manuscript "Major environmental drivers of genetic adaptation in Florida corals"
 
 
-Pipelines for processing raw 2bRAD sequencing data are located here: https://github.com/z0on/2bRAD_denovo. All processing was done on Lonestar 6 at the Texas Advanced Computing Center.
+Sequences are deposited on the Sequence Read Archive under Bioproject PRJNA812916. Pipelines for processing raw 2bRAD sequencing data are located here: https://github.com/z0on/2bRAD_denovo. All processing was done on Lonestar 6 at the Texas Advanced Computing Center.
 In-depth tutorial on RDA forest can be found here: https://github.com/z0on/RDA-forest
 
 
