@@ -18,7 +18,7 @@ The following R scripts reproduce figures from the manuscript:
 
 **SERC_interpolation.R** performs kriging interpolation to produce rasters for all water quality observations collected by the SERC water quality monitoring network.
 
-**RDA_forest.R** performs gradient forest on genetic distances corrected for spatial autocorrelation in both species and all lineages.
+**RDA_forest.R** performs gradient forest on genetic distances corrected for population structure (i.e. admixture and spatial autocorrelation) in both species and all lineages.
 
 **Compare_lineages.R** compares adaptation patterns between lineages by measuring distance between turnover grids.
 
